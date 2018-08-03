@@ -3,6 +3,11 @@
   "manifest_version": 2,
   "name": "Borderify",
   "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "borderify@mozilla.org"
+    }
+  },
   "description": "adds red border to all domains matching mozilla.org",
   "icons": {
     "48": "icons/border-48.png"
@@ -13,5 +18,5 @@
       "js": ["borderify.js"]
     }
   ]
-  
+
 }
